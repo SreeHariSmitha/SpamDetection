@@ -51,8 +51,7 @@ How to Run the Project
  nltk.download('punkt')
  nltk.download('stopwords')
  nltk.download('wordnet')
-5. Train the model (optional):
- python train_model.py
+5. Paste an api key from "https://aistudio.google.com/prompts/new_chat" > getapikey
 6. Run the app:
  python app.py
 Example
