@@ -14,7 +14,7 @@ with open("model/vectorizer.pkl", "rb") as f:
     vectorizer = pickle.load(f)
 
 # Gemini setup (insert your actual API key)
-genai.configure(api_key="AIzaSyBgFaA0Q14SUD5wznklfOYCXvvNIAUdsjI")
+genai.configure(api_key="paste your api key")
 gemini = genai.GenerativeModel("gemini-pro")
 
 def clean_text(text):
